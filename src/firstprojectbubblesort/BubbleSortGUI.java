@@ -17,7 +17,6 @@ public class BubbleSortGUI extends Frame {
      -messageOutput is a Label that inform the user where is the ordered array
      -errorValues is a Label that inform the user with the invalid values that he wrote
      -btnBubbleSort is a Button that ordered the array received on inputArray
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
     */
     TextArea inputArray;
     TextArea outputArray;
@@ -56,7 +55,7 @@ public class BubbleSortGUI extends Frame {
         this.add(errorValues);
 
         btnBubbleSort = new Button("Bubble Sort");
-        btnBubbleSort.setBounds(200, 150, 100, 50);
+        btnBubbleSort.setBounds(200, 150, 200, 50);
         btnBubbleSort.addActionListener(new ActionListener() {
 
             public void actionPerformed(ActionEvent e) {
@@ -82,6 +81,7 @@ public class BubbleSortGUI extends Frame {
         });
         
         //set the size and the visibility of the GUI
+        this.setLayout(null);
         this.setSize(600, 600);
         this.setVisible(true);
 
