@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  *
- * @author Alessio-sssssMirko
+ * @author Alessio-Mirko
  */
 public class BubbleSort {
     
